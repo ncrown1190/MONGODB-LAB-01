@@ -1,0 +1,8 @@
+// db.animals.find()
+// db.animals.find({ _id: ObjectId("62b10119a23cf15ded234f51") })
+// db.books.find()
+// db.books.find({title: "Mistborn"}, {year: false})
+// db.books.find({title: "Mistborn"}, {year: true, title: true})
+db.books.find({title: "Mistborn"}, {year: true, title: true})
+db.books.find().count()
+db.books.find({author: "Robert Jordon"}).count()
